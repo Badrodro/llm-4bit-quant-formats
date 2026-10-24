@@ -107,4 +107,4 @@ python analyze.py
 
 ## Author
 
-Badreddine Benfettouma, student at Université Bourgogne Europe, interested in digital system architecture and near-/in-memory computing. See also my RISC-V core: [RV32I-Alpha](https://github.com/Badrodro/RV32I-Alpha-Ultra-Low-Area-RISC-V-Core-for-Basys-3).
+Badreddine Benfettouma, undergraduate in electronics at Université Bourgogne Europe. Website: [badrodro.github.io](https://badrodro.github.io). See also my RISC-V core: [RV32I-Alpha](https://github.com/Badrodro/RV32I-Alpha).
