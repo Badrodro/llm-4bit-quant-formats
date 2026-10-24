@@ -105,6 +105,10 @@ python analyze.py
 - Open Compute Project, *OCP Microscaling Formats (MX) Specification v1.0*, 2023.
 - S. Lloyd, *Least squares quantization in PCM*, IEEE Trans. Information Theory, 1982; J. Max, *Quantizing for minimum distortion*, IRE Trans. Information Theory, 1960.
 
+## How this was made
+
+I use AI assistants (Claude) in my projects; I choose the questions and check the results.
+
 ## Author
 
 Badreddine Benfettouma, undergraduate in electronics at Université Bourgogne Europe. Website: [badrodro.github.io](https://badrodro.github.io). See also my RISC-V core: [RV32I-Alpha](https://github.com/Badrodro/RV32I-Alpha).
