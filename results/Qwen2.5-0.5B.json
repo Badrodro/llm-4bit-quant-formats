@@ -1,0 +1,120 @@
+{
+ "_meta": {
+  "model": "Qwen/Qwen2.5-0.5B",
+  "quantized_weights": 357826560,
+  "window": 2048,
+  "trellis_L": 14,
+  "tokens": {
+   "wikitext2": 299078,
+   "c4": 262144
+  },
+  "quick": false
+ },
+ "BF16": {
+  "bpw": 16.0,
+  "wikitext2": 13.076303072190814,
+  "c4": 19.68831506108958
+ },
+ "NVFP4": {
+  "bpw": 4.5,
+  "wikitext2": 14.372846296896808,
+  "c4": 21.4388486627912,
+  "quantization_seconds": 0.4
+ },
+ "NVFP4 +RHT": {
+  "bpw": 4.5,
+  "wikitext2": 14.941841254808677,
+  "c4": 22.153865349543224,
+  "quantization_seconds": 0.6
+ },
+ "NVFP4 + scale search": {
+  "bpw": 4.5,
+  "wikitext2": 14.309606370493984,
+  "c4": 21.252259561413823,
+  "quantization_seconds": 1.0
+ },
+ "NVFP4 + scale search +RHT": {
+  "bpw": 4.5,
+  "wikitext2": 14.660663628003446,
+  "c4": 21.758543152651924,
+  "quantization_seconds": 1.3
+ },
+ "MXFP4": {
+  "bpw": 4.25,
+  "wikitext2": 16.175089755389692,
+  "c4": 23.630115649299718,
+  "quantization_seconds": 0.4
+ },
+ "MXFP4 +RHT": {
+  "bpw": 4.25,
+  "wikitext2": 15.874078730746417,
+  "c4": 23.592844429351352,
+  "quantization_seconds": 0.6
+ },
+ "INT4 g128": {
+  "bpw": 4.125,
+  "wikitext2": 18.1776831892764,
+  "c4": 27.89106685928844,
+  "quantization_seconds": 0.3
+ },
+ "INT4 g128 +RHT": {
+  "bpw": 4.125,
+  "wikitext2": 15.94423614188654,
+  "c4": 23.61190505996993,
+  "quantization_seconds": 0.5
+ },
+ "Lloyd-Max 4b g32": {
+  "bpw": 4.25,
+  "wikitext2": 16.530437076434644,
+  "c4": 24.60755246124022,
+  "quantization_seconds": 1.6
+ },
+ "Lloyd-Max 4b g32 +RHT": {
+  "bpw": 4.25,
+  "wikitext2": 14.249321183031602,
+  "c4": 21.43579531603599,
+  "quantization_seconds": 1.9
+ },
+ "Lloyd-Max 3b g32": {
+  "bpw": 3.25,
+  "wikitext2": 156.37392607564743,
+  "c4": 174.85098105687888,
+  "quantization_seconds": 1.6
+ },
+ "Lloyd-Max 3b g32 +RHT": {
+  "bpw": 3.25,
+  "wikitext2": 20.77842773697644,
+  "c4": 29.466047918773977,
+  "quantization_seconds": 1.9
+ },
+ "Trellis k=7 V=2": {
+  "bpw": 3.5204,
+  "wikitext2": 15.366100491460108,
+  "c4": 22.676998184972653,
+  "quantization_seconds": 189.5,
+  "code_gain": {
+   "k=7,V=2": 1.1
+  }
+ },
+ "Trellis k=4 V=1": {
+  "bpw": 4.0234,
+  "wikitext2": 14.180594691170818,
+  "c4": 21.114875890656325,
+  "quantization_seconds": 272.4,
+  "code_gain": {
+   "k=7,V=2": 1.1,
+   "k=4,V=1": 1.1
+  }
+ },
+ "Trellis k=3 V=1": {
+  "bpw": 3.0243,
+  "wikitext2": 18.03831110177072,
+  "c4": 26.377629418318055,
+  "quantization_seconds": 233.0,
+  "code_gain": {
+   "k=7,V=2": 1.1,
+   "k=4,V=1": 1.1,
+   "k=3,V=1": 1.05
+  }
+ }
+}

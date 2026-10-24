@@ -1,0 +1,420 @@
+{
+ "threshold": 0.1,
+ "decision": "DROP the trellis codec",
+ "summary": {
+  "Qwen/Qwen2.5-0.5B": {
+   "wikitext2": {
+    "bf16": 13.076,
+    "comparisons": [
+     {
+      "format": "NVFP4",
+      "best_variant": "NVFP4",
+      "bpw": 4.5,
+      "ppl": 14.373,
+      "trellis_bpw_at_equal_ppl": 3.939,
+      "status": "interpolated",
+      "saving": 0.125
+     },
+     {
+      "format": "NVFP4 + scale search",
+      "best_variant": "NVFP4 + scale search",
+      "bpw": 4.5,
+      "ppl": 14.31,
+      "trellis_bpw_at_equal_ppl": 3.967,
+      "status": "interpolated",
+      "saving": 0.119
+     },
+     {
+      "format": "MXFP4",
+      "best_variant": "MXFP4 +RHT",
+      "bpw": 4.25,
+      "ppl": 15.874,
+      "trellis_bpw_at_equal_ppl": 3.42,
+      "status": "interpolated",
+      "saving": 0.195
+     },
+     {
+      "format": "INT4 g128",
+      "best_variant": "INT4 g128 +RHT",
+      "bpw": 4.125,
+      "ppl": 15.944,
+      "trellis_bpw_at_equal_ppl": 3.406,
+      "status": "interpolated",
+      "saving": 0.174
+     },
+     {
+      "format": "Lloyd-Max 4b g32",
+      "best_variant": "Lloyd-Max 4b g32 +RHT",
+      "bpw": 4.25,
+      "ppl": 14.249,
+      "trellis_bpw_at_equal_ppl": 3.993,
+      "status": "interpolated",
+      "saving": 0.06
+     },
+     {
+      "format": "Lloyd-Max 3b g32",
+      "best_variant": "Lloyd-Max 3b g32 +RHT",
+      "bpw": 3.25,
+      "ppl": 20.778,
+      "trellis_bpw_at_equal_ppl": 3.024,
+      "status": "already reached at (at most)",
+      "saving": 0.069
+     }
+    ],
+    "worst_case": {
+     "format": "Lloyd-Max 4b g32",
+     "best_variant": "Lloyd-Max 4b g32 +RHT",
+     "bpw": 4.25,
+     "ppl": 14.249,
+     "trellis_bpw_at_equal_ppl": 3.993,
+     "status": "interpolated",
+     "saving": 0.06
+    }
+   },
+   "c4": {
+    "bf16": 19.688,
+    "comparisons": [
+     {
+      "format": "NVFP4",
+      "best_variant": "NVFP4",
+      "bpw": 4.5,
+      "ppl": 21.439,
+      "trellis_bpw_at_equal_ppl": 3.916,
+      "status": "interpolated",
+      "saving": 0.13
+     },
+     {
+      "format": "NVFP4 + scale search",
+      "best_variant": "NVFP4 + scale search",
+      "bpw": 4.5,
+      "ppl": 21.252,
+      "trellis_bpw_at_equal_ppl": 3.978,
+      "status": "interpolated",
+      "saving": 0.116
+     },
+     {
+      "format": "MXFP4",
+      "best_variant": "MXFP4 +RHT",
+      "bpw": 4.25,
+      "ppl": 23.593,
+      "trellis_bpw_at_equal_ppl": 3.39,
+      "status": "interpolated",
+      "saving": 0.202
+     },
+     {
+      "format": "INT4 g128",
+      "best_variant": "INT4 g128 +RHT",
+      "bpw": 4.125,
+      "ppl": 23.612,
+      "trellis_bpw_at_equal_ppl": 3.388,
+      "status": "interpolated",
+      "saving": 0.179
+     },
+     {
+      "format": "Lloyd-Max 4b g32",
+      "best_variant": "Lloyd-Max 4b g32 +RHT",
+      "bpw": 4.25,
+      "ppl": 21.436,
+      "trellis_bpw_at_equal_ppl": 3.917,
+      "status": "interpolated",
+      "saving": 0.078
+     },
+     {
+      "format": "Lloyd-Max 3b g32",
+      "best_variant": "Lloyd-Max 3b g32 +RHT",
+      "bpw": 3.25,
+      "ppl": 29.466,
+      "trellis_bpw_at_equal_ppl": 3.024,
+      "status": "already reached at (at most)",
+      "saving": 0.069
+     }
+    ],
+    "worst_case": {
+     "format": "Lloyd-Max 4b g32",
+     "best_variant": "Lloyd-Max 4b g32 +RHT",
+     "bpw": 4.25,
+     "ppl": 21.436,
+     "trellis_bpw_at_equal_ppl": 3.917,
+     "status": "interpolated",
+     "saving": 0.078
+    }
+   }
+  },
+  "Qwen/Qwen2.5-1.5B": {
+   "wikitext2": {
+    "bf16": 9.27,
+    "comparisons": [
+     {
+      "format": "NVFP4",
+      "best_variant": "NVFP4",
+      "bpw": 4.5,
+      "ppl": 9.893,
+      "trellis_bpw_at_equal_ppl": 3.74,
+      "status": "interpolated",
+      "saving": 0.169
+     },
+     {
+      "format": "NVFP4 + scale search",
+      "best_variant": "NVFP4 + scale search",
+      "bpw": 4.5,
+      "ppl": 9.803,
+      "trellis_bpw_at_equal_ppl": 3.849,
+      "status": "interpolated",
+      "saving": 0.145
+     },
+     {
+      "format": "MXFP4",
+      "best_variant": "MXFP4",
+      "bpw": 4.25,
+      "ppl": 10.449,
+      "trellis_bpw_at_equal_ppl": 3.515,
+      "status": "already reached at (at most)",
+      "saving": 0.173
+     },
+     {
+      "format": "INT4 g128",
+      "best_variant": "INT4 g128 +RHT",
+      "bpw": 4.125,
+      "ppl": 10.483,
+      "trellis_bpw_at_equal_ppl": 3.515,
+      "status": "already reached at (at most)",
+      "saving": 0.148
+     },
+     {
+      "format": "Lloyd-Max 4b g32",
+      "best_variant": "Lloyd-Max 4b g32 +RHT",
+      "bpw": 4.25,
+      "ppl": 9.788,
+      "trellis_bpw_at_equal_ppl": 3.868,
+      "status": "interpolated",
+      "saving": 0.09
+     },
+     {
+      "format": "Lloyd-Max 3b g32",
+      "best_variant": "Lloyd-Max 3b g32 +RHT",
+      "bpw": 3.25,
+      "ppl": 12.329,
+      "trellis_bpw_at_equal_ppl": 3.515,
+      "status": "already reached at (at most)",
+      "saving": -0.081
+     }
+    ],
+    "worst_case": {
+     "format": "Lloyd-Max 4b g32",
+     "best_variant": "Lloyd-Max 4b g32 +RHT",
+     "bpw": 4.25,
+     "ppl": 9.788,
+     "trellis_bpw_at_equal_ppl": 3.868,
+     "status": "interpolated",
+     "saving": 0.09
+    }
+   },
+   "c4": {
+    "bf16": 14.585,
+    "comparisons": [
+     {
+      "format": "NVFP4",
+      "best_variant": "NVFP4",
+      "bpw": 4.5,
+      "ppl": 15.428,
+      "trellis_bpw_at_equal_ppl": 3.819,
+      "status": "interpolated",
+      "saving": 0.151
+     },
+     {
+      "format": "NVFP4 + scale search",
+      "best_variant": "NVFP4 + scale search",
+      "bpw": 4.5,
+      "ppl": 15.329,
+      "trellis_bpw_at_equal_ppl": 3.894,
+      "status": "interpolated",
+      "saving": 0.135
+     },
+     {
+      "format": "MXFP4",
+      "best_variant": "MXFP4",
+      "bpw": 4.25,
+      "ppl": 16.34,
+      "trellis_bpw_at_equal_ppl": 3.515,
+      "status": "already reached at (at most)",
+      "saving": 0.173
+     },
+     {
+      "format": "INT4 g128",
+      "best_variant": "INT4 g128 +RHT",
+      "bpw": 4.125,
+      "ppl": 16.397,
+      "trellis_bpw_at_equal_ppl": 3.515,
+      "status": "already reached at (at most)",
+      "saving": 0.148
+     },
+     {
+      "format": "Lloyd-Max 4b g32",
+      "best_variant": "Lloyd-Max 4b g32 +RHT",
+      "bpw": 4.25,
+      "ppl": 15.361,
+      "trellis_bpw_at_equal_ppl": 3.87,
+      "status": "interpolated",
+      "saving": 0.089
+     },
+     {
+      "format": "Lloyd-Max 3b g32",
+      "best_variant": "Lloyd-Max 3b g32 +RHT",
+      "bpw": 3.25,
+      "ppl": 18.681,
+      "trellis_bpw_at_equal_ppl": 3.515,
+      "status": "already reached at (at most)",
+      "saving": -0.081
+     }
+    ],
+    "worst_case": {
+     "format": "Lloyd-Max 4b g32",
+     "best_variant": "Lloyd-Max 4b g32 +RHT",
+     "bpw": 4.25,
+     "ppl": 15.361,
+     "trellis_bpw_at_equal_ppl": 3.87,
+     "status": "interpolated",
+     "saving": 0.089
+    }
+   }
+  },
+  "HuggingFaceTB/SmolLM2-1.7B": {
+   "wikitext2": {
+    "bf16": 8.116,
+    "comparisons": [
+     {
+      "format": "NVFP4",
+      "best_variant": "NVFP4",
+      "bpw": 4.5,
+      "ppl": 8.91,
+      "trellis_bpw_at_equal_ppl": 3.981,
+      "status": "interpolated",
+      "saving": 0.115
+     },
+     {
+      "format": "NVFP4 + scale search",
+      "best_variant": "NVFP4 + scale search",
+      "bpw": 4.5,
+      "ppl": 8.876,
+      "trellis_bpw_at_equal_ppl": 4.0,
+      "status": "interpolated",
+      "saving": 0.111
+     },
+     {
+      "format": "MXFP4",
+      "best_variant": "MXFP4 +RHT",
+      "bpw": 4.25,
+      "ppl": 10.772,
+      "trellis_bpw_at_equal_ppl": 3.513,
+      "status": "already reached at (at most)",
+      "saving": 0.173
+     },
+     {
+      "format": "INT4 g128",
+      "best_variant": "INT4 g128",
+      "bpw": 4.125,
+      "ppl": 10.07,
+      "trellis_bpw_at_equal_ppl": 3.513,
+      "status": "already reached at (at most)",
+      "saving": 0.148
+     },
+     {
+      "format": "Lloyd-Max 4b g32",
+      "best_variant": "Lloyd-Max 4b g32 +RHT",
+      "bpw": 4.25,
+      "ppl": 9.075,
+      "trellis_bpw_at_equal_ppl": 3.89,
+      "status": "interpolated",
+      "saving": 0.085
+     },
+     {
+      "format": "Lloyd-Max 3b g32",
+      "best_variant": "Lloyd-Max 3b g32 +RHT",
+      "bpw": 3.25,
+      "ppl": 18.841,
+      "trellis_bpw_at_equal_ppl": 3.513,
+      "status": "already reached at (at most)",
+      "saving": -0.081
+     }
+    ],
+    "worst_case": {
+     "format": "Lloyd-Max 4b g32",
+     "best_variant": "Lloyd-Max 4b g32 +RHT",
+     "bpw": 4.25,
+     "ppl": 9.075,
+     "trellis_bpw_at_equal_ppl": 3.89,
+     "status": "interpolated",
+     "saving": 0.085
+    }
+   },
+   "c4": {
+    "bf16": 12.565,
+    "comparisons": [
+     {
+      "format": "NVFP4",
+      "best_variant": "NVFP4",
+      "bpw": 4.5,
+      "ppl": 13.687,
+      "trellis_bpw_at_equal_ppl": 3.97,
+      "status": "interpolated",
+      "saving": 0.118
+     },
+     {
+      "format": "NVFP4 + scale search",
+      "best_variant": "NVFP4 + scale search",
+      "bpw": 4.5,
+      "ppl": 13.627,
+      "trellis_bpw_at_equal_ppl": 3.995,
+      "status": "interpolated",
+      "saving": 0.112
+     },
+     {
+      "format": "MXFP4",
+      "best_variant": "MXFP4 +RHT",
+      "bpw": 4.25,
+      "ppl": 16.321,
+      "trellis_bpw_at_equal_ppl": 3.513,
+      "status": "already reached at (at most)",
+      "saving": 0.173
+     },
+     {
+      "format": "INT4 g128",
+      "best_variant": "INT4 g128",
+      "bpw": 4.125,
+      "ppl": 15.217,
+      "trellis_bpw_at_equal_ppl": 3.513,
+      "status": "already reached at (at most)",
+      "saving": 0.148
+     },
+     {
+      "format": "Lloyd-Max 4b g32",
+      "best_variant": "Lloyd-Max 4b g32 +RHT",
+      "bpw": 4.25,
+      "ppl": 13.893,
+      "trellis_bpw_at_equal_ppl": 3.886,
+      "status": "interpolated",
+      "saving": 0.086
+     },
+     {
+      "format": "Lloyd-Max 3b g32",
+      "best_variant": "Lloyd-Max 3b g32 +RHT",
+      "bpw": 3.25,
+      "ppl": 28.228,
+      "trellis_bpw_at_equal_ppl": 3.513,
+      "status": "already reached at (at most)",
+      "saving": -0.081
+     }
+    ],
+    "worst_case": {
+     "format": "Lloyd-Max 4b g32",
+     "best_variant": "Lloyd-Max 4b g32 +RHT",
+     "bpw": 4.25,
+     "ppl": 13.893,
+     "trellis_bpw_at_equal_ppl": 3.886,
+     "status": "interpolated",
+     "saving": 0.086
+    }
+   }
+  }
+ }
+}

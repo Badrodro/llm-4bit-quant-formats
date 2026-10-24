@@ -1,0 +1,109 @@
+{
+ "_meta": {
+  "model": "Qwen/Qwen2.5-1.5B",
+  "quantized_weights": 1310195712,
+  "window": 2048,
+  "trellis_L": 14,
+  "tokens": {
+   "wikitext2": 299078,
+   "c4": 262144
+  },
+  "quick": false
+ },
+ "BF16": {
+  "bpw": 16.0,
+  "wikitext2": 9.270223004770282,
+  "c4": 14.584601246995968
+ },
+ "NVFP4": {
+  "bpw": 4.5,
+  "wikitext2": 9.893147594396817,
+  "c4": 15.427734440656517,
+  "quantization_seconds": 1.2
+ },
+ "NVFP4 +RHT": {
+  "bpw": 4.5,
+  "wikitext2": 10.186020296148522,
+  "c4": 15.764707980621406,
+  "quantization_seconds": 2.7
+ },
+ "NVFP4 + scale search": {
+  "bpw": 4.5,
+  "wikitext2": 9.802933658322896,
+  "c4": 15.328675845013436,
+  "quantization_seconds": 3.4
+ },
+ "NVFP4 + scale search +RHT": {
+  "bpw": 4.5,
+  "wikitext2": 10.041757457110865,
+  "c4": 15.649916524218899,
+  "quantization_seconds": 5.1
+ },
+ "MXFP4": {
+  "bpw": 4.25,
+  "wikitext2": 10.449039232578183,
+  "c4": 16.340378274685566,
+  "quantization_seconds": 1.2
+ },
+ "MXFP4 +RHT": {
+  "bpw": 4.25,
+  "wikitext2": 10.4986493353656,
+  "c4": 16.436602116092995,
+  "quantization_seconds": 2.5
+ },
+ "INT4 g128": {
+  "bpw": 4.125,
+  "wikitext2": 10.862075123702152,
+  "c4": 16.750602545966622,
+  "quantization_seconds": 0.9
+ },
+ "INT4 g128 +RHT": {
+  "bpw": 4.125,
+  "wikitext2": 10.483378556825597,
+  "c4": 16.397274984612658,
+  "quantization_seconds": 2.4
+ },
+ "Lloyd-Max 4b g32": {
+  "bpw": 4.25,
+  "wikitext2": 10.469314423990493,
+  "c4": 16.27615712551792,
+  "quantization_seconds": 5.4
+ },
+ "Lloyd-Max 4b g32 +RHT": {
+  "bpw": 4.25,
+  "wikitext2": 9.787671387471852,
+  "c4": 15.360556901573853,
+  "quantization_seconds": 6.9
+ },
+ "Lloyd-Max 3b g32": {
+  "bpw": 3.25,
+  "wikitext2": 21.36046902809406,
+  "c4": 31.329093767509324,
+  "quantization_seconds": 5.3
+ },
+ "Lloyd-Max 3b g32 +RHT": {
+  "bpw": 3.25,
+  "wikitext2": 12.328579969970146,
+  "c4": 18.68141612396531,
+  "quantization_seconds": 6.9
+ },
+ "Trellis k=7 V=2": {
+  "bpw": 3.5147,
+  "wikitext2": 10.081075160463765,
+  "c4": 15.836706218946823,
+  "quantization_seconds": 684.8,
+  "code_gain": {
+   "k=7,V=2": 1.1
+  }
+ },
+ "Trellis k=4 V=1": {
+  "bpw": 4.0176,
+  "wikitext2": 9.66581942968775,
+  "c4": 15.167361823691481,
+  "quantization_seconds": 1007.8,
+  "code_gain": {
+   "k=7,V=2": 1.1,
+   "k=4,V=1": 1.1
+  }
+ }
+}
